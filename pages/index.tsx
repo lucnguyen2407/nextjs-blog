@@ -29,8 +29,6 @@ function classNames(...classes: string[]) {
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  
   return (
     <header className="bg-white">
       <nav
